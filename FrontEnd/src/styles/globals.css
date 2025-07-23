@@ -1,0 +1,28 @@
+/* Updated Color Variables */
+:root {
+    --font-geist-sans: 'Geist Sans', sans-serif;
+    --gray-rgb: 255, 255, 255;
+    --gray-alpha-200: rgba(var(--gray-rgb), 0.2);
+    --gray-alpha-100: rgba(var(--gray-rgb), 0.1);
+
+    /* New Vibrant Color Scheme */
+    --neon-purple: #8A2BE2;
+    --electric-blue: #00F3FF;
+    --cyber-pink: #D6008F;
+    --matrix-green: #00FF9D;
+
+    --button-primary: linear-gradient(135deg, var(--neon-purple) 0%, var(--cyber-pink) 100%);
+    --button-primary-hover: linear-gradient(135deg, #7B1FA2 0%, #D6006E 100%);
+    --button-secondary: transparent;
+    --button-secondary-hover: rgba(138, 43, 226, 0.1);
+
+    --background: linear-gradient(152deg, #0f0a1d 0%, #2a0944 100%);
+    --foreground: #f8f9ff;
+    --text-primary: #C1C7FF;
+
+    /* Enhanced Glow Effects */
+    --glow: 0 0 25px rgba(138, 43, 226, 0.4);
+    --accent: var(--matrix-green);
+    --input-focus-glow: 0 0 0 4px rgba(0, 243, 255, 0.3);
+    --button-glow: 0 4px 24px rgba(138, 43, 226, 0.4);
+}
